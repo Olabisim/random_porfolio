@@ -287,7 +287,7 @@ sup {
 
 
 /* 
-
+hr
 
 
     FOURTH section
@@ -407,15 +407,6 @@ section:last-of-type footer i {
         transition: 0.3s ease;
     }
 
-        
-
-    .fourth_section .three_projects {
-        flex-wrap: wrap;
-    }
-    /* .fourth_section .three_projects .each:nth-of-type(3){
-        margin-top: 20px;
-    } */
-
 }
 
 
@@ -477,9 +468,6 @@ section:last-of-type footer i {
         padding: 0px;
     }
 
-    .fourth_section .three_projects .each:nth-of-type(3){
-        margin-top: 15px;
-    }
     
     .fifth_section > div {
         width: 75%;
