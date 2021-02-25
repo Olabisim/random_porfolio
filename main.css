@@ -412,9 +412,9 @@ section:last-of-type footer i {
     .fourth_section .three_projects {
         flex-wrap: wrap;
     }
-    .fourth_section .three_projects .each:nth-of-type(3){
+    /* .fourth_section .three_projects .each:nth-of-type(3){
         margin-top: 20px;
-    }
+    } */
 
 }
 
