@@ -305,7 +305,7 @@ sup {
 .fourth_section .three_projects .each{
     border: 1px solid black;
     border-radius: 10px;
-    width: 375px;
+    width: 300px;
     height: 300px;
     /* background-color: black; */
 
@@ -407,6 +407,15 @@ section:last-of-type footer i {
         transition: 0.3s ease;
     }
 
+        
+
+    .fourth_section .three_projects {
+        flex-wrap: wrap;
+    }
+    .fourth_section .three_projects .each:nth-of-type(3){
+        margin-top: 20px;
+    }
+
 }
 
 
@@ -468,6 +477,9 @@ section:last-of-type footer i {
         padding: 0px;
     }
 
+    .fourth_section .three_projects .each:nth-of-type(3){
+        margin-top: 15px;
+    }
     
     .fifth_section > div {
         width: 75%;
