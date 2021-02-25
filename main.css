@@ -41,7 +41,8 @@ section:nth-of-type(1){
     text-align: left !important;
 }
 
-body{font-family: 'Poiret One', cursive;
+body{
+    font-family: sans-serif;
     background-color: #5cdb95;
 }
 em {
@@ -396,7 +397,9 @@ section:last-of-type footer i {
 
 
 @media screen and (max-width: 1024px){
-
+    body {
+        font-family: sans-serif;
+    }
     .menu-bg{
         z-index: 1;
         width: 0;
@@ -417,6 +420,9 @@ section:last-of-type footer i {
 /* starting of media queries */
 @media screen and (max-width: 768px){
     
+    body {
+        font-family: 'Poiret One', cursive;
+    }
     #menu{
         width: 35px;
         height: 30px;
